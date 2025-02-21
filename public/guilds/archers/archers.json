@@ -1,6 +1,10 @@
 {
+	"info": {
+		"image" : "henk.png",
+		"color" : "aa"
+	},
 	"name": "Shooting bunnies",
-	"heros": [
+	"heroes": [
 		{
 			"name": "Rotator 1",
 			"velocity": 300,

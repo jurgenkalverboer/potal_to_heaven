@@ -1,0 +1,81 @@
+{
+    "info": {
+        "image" : "henk.png",
+        "color" : "aa"
+    },
+    "name": "Darkside",
+    "heroes": [
+        {
+            "name": "Rotator 1",
+            "velocity": 300,
+            "range": "full",
+            "damage": 0,
+            "active": "direct",
+            "health": 3,
+            "info": "Rotate a single enemy"
+        },
+        {
+            "name": "Rotator 2",
+            "velocity": 500,
+            "range": "full",
+            "damage": 0,
+            "active": "once",
+            "health": 3,
+            "info": "Rotate a single enemy"
+        },
+        {
+            "name": "Rotator 3",
+            "velocity": 400,
+            "range": "full",
+            "damage": 0,
+            "active": "always",
+            "health": 2,
+            "info": "Rotate every turn an enemy"
+        },
+        {
+            "name": "Full range Damage 1",
+            "velocity": 500,
+            "range": "full",
+            "damage": 2,
+            "active": "direct",
+            "health": 3,
+            "info": "Shoots one arrow"
+        },
+        {
+            "name": "Full range Damage 2",
+            "velocity": 500,
+            "range": "full",
+            "damage": 2,
+            "active": "once",
+            "health": 3,
+            "info": "Shoots one arrow"
+        },
+        {
+            "name": "Full range Damage 3",
+            "velocity": 500,
+            "range": "full",
+            "damage": 1,
+            "active": "always",
+            "health": 3,
+            "info": "Shoots one arrow"
+        },
+        {
+            "name": "Mediun Range Damage 1",
+            "velocity": 500,
+            "range": "medium",
+            "damage": 2,
+            "active": "once",
+            "health": 3,
+            "info": "Hits up to 2 enemies in range"
+        },
+        {
+            "name": "Mediun Range Damage 2",
+            "velocity": 500,
+            "range": "medium",
+            "damage": 2,
+            "active": "direct",
+            "health": 3,
+            "info": "Hits up to 3 enemies in range"
+        }
+    ]
+}

@@ -1,77 +1,81 @@
 {
 	"name": "Shooting bunnies",
-	"heros": [
-		{	
-			"name" :  "Mr knock back",
+	"info": {
+		"image": "henk.png",
+		"color": "aa"
+	},
+	"heroes": [
+		{
+			"name": "Mr knock back",
 			"velocity": 300,
-			"range": "Face",
-			"damage" : 0,
-			"active":  "direct",
+			"range": "face",
+			"damage": 0,
+			"active": "direct",
 			"health": 3,
 			"info": "Deactivate enemy, enemy is pushed 1 tile backwards"
 		},
-		{	
-			"name" :  "Area Stun",
+		{
+			"name": "Area Stun",
 			"velocity": 500,
-			"range": "ShortAround",
-			"damage" : 0,
-			"active":  "once",
+			"range": "shortAround",
+			"damage": 0,
+			"active": "once",
 			"health": 3,
 			"info": "All enemies around are deactivated"
 		},
-		{	
-			"name" :  "Rotator 3",
+		{
+			"name": "Rotator 3",
 			"velocity": 400,
 			"range": "full",
-			"damage" : 0,
-			"active":  "always",
+			"damage": 0,
+			"active": "always",
 			"health": 2,
 			"info": "Rotate every turn an enemy"
 		},
-		{	
-			"name" :  "Full range Damage 1",
+		{
+			"name": "Full range Damage 1",
 			"velocity": 500,
 			"range": "full",
-			"damage" : 2,
-			"active":  "direct",
+			"damage": 2,
+			"active": "direct",
 			"health": 3,
 			"info": "Shoots one arrow"
 		},
-		{	
-			"name" :  "Full range Damage 2",
+		{
+			"name": "Full range Damage 2",
 			"velocity": 500,
 			"range": "full",
-			"damage" : 2,
-			"active":  "once",
+			"damage": 2,
+			"active": "once",
 			"health": 3,
 			"info": "Shoots one arrow"
 		},
-		{	
-			"name" :  "Full range Damage 3",
+		{
+			"name": "Full range Damage 3",
 			"velocity": 500,
 			"range": "full",
-			"damage" : 1,
-			"active":  "always",
+			"damage": 1,
+			"active": "always",
 			"health": 3,
 			"info": "Shoots one arrow"
 		},
-		{	
-			"name" :  "Mediun Range Damage 1",
+		{
+			"name": "Mediun Range Damage 1",
 			"velocity": 500,
 			"range": "medium",
-			"damage" : 2,
-			"active":  "once",
+			"damage": 2,
+			"active": "once",
 			"health": 3,
 			"info": "Hits up to 2 enemies in range"
 		},
-		{	
-			"name" :  "Mediun Range Damage 2",
+		{
+			"name": "Mediun Range Damage 2",
 			"velocity": 500,
 			"range": "medium",
-			"damage" : 2,
-			"active":  "direct",
+			"damage": 2,
+			"active": "direct",
 			"health": 3,
 			"info": "Hits up to 3 enemies in range"
 		}
-
 	]
+}
