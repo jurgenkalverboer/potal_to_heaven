@@ -1,0 +1,99 @@
+{
+	"info": {
+		"image" : "henk.png",
+		"color" : "aa"
+	},
+	"name": "Defenders",
+	"heroes": [
+		{
+			"name": "Healer 1",
+			"velocity": 300,
+			"range": "longAround",
+			"damage": 1,
+			"active": "always",
+			"health": 3,
+			"info": "Heals a single unit for 1 health"
+		},
+		{
+			"name": "Healer 2",
+			"velocity": 500,
+			"range": "longAround",
+			"damage": 1,
+			"active": "once",
+			"health": 3,
+			"info": "Heals all team members in range for 1 health"
+		},
+		{
+			"name": "Healer 3",
+			"velocity": 400,
+			"range": "shortAround",
+			"damage": 2,
+			"active": "once",
+			"health": 2,
+			"info": "Heals single unit"
+		},
+		{
+			"name": "Damage redirector",
+			"velocity": 500,
+			"range": "shortAround",
+			"damage": 0,
+			"active": "always",
+			"health": 5,
+			"info": "Attack is redirected from a single team member within range. Can not block assassins. Can only save on team member from area effect spells"
+		},
+		{
+			"name": "Wall Builder 1",
+			"velocity": 500,
+			"range": "face",
+			"damage": 0,
+			"active": "direct",
+			"health": 3,
+			"info": "Build a wall. You can no longer attack someone in the same column through the wall. Walls remain on the board and are limited available"
+		},
+		{
+			"name": "Wall Builder 2",
+			"velocity": 500,
+			"range": "face",
+			"damage": 0,
+			"active": "direct",
+			"health": 2,
+			"info": "Build a wall. You can no longer attack someone in the same column through the wall. Walls remain on the board and are limited available"
+		},
+		{
+			"name": "Quick tank",
+			"velocity": 10,
+			"range": "face",
+			"damage": 1,
+			"active": "once",
+			"health": 5,
+			"info": "Rush to the portal"
+		},
+		{
+			"name": "Slow tank",
+			"velocity": 900,
+			"range": "face",
+			"damage": 1,
+			"active": "once",
+			"health": 5,
+			"info": "One of the last units to move"
+		},
+		{
+			"name": "Blocker",
+			"velocity": 500,
+			"range": "face",
+			"damage": 1,
+			"active": "direct",
+			"health": 4,
+			"info": "Can not be pushed or pulled"
+		},
+		{
+			"name": "Area blocker",
+			"velocity": 500,
+			"range": "face",
+			"damage": 1,
+			"active": "shortAround",
+			"health": 4,
+			"info": "If hit, then it is the only hero who is receiving damage"
+		}
+	]
+}

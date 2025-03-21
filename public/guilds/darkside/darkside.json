@@ -6,34 +6,34 @@
     "name": "Darkside",
     "heroes": [
         {
-            "name": "Rotator 1",
+            "name": "Black hole 1",
             "velocity": 300,
-            "range": "full",
+            "range": "short",
             "damage": 0,
             "active": "direct",
-            "health": 3,
-            "info": "Rotate a single enemy"
+            "health": 1,
+            "info": "Create a black hole on the map that remains there forever. Black holes are limited. A black hole can not be created on top of an hero"
         },
         {
-            "name": "Rotator 2",
+            "name": "Black hole 2",
             "velocity": 500,
-            "range": "full",
+            "range": "short",
+            "damage": 0,
+            "active": "direct",
+            "health": 1,
+            "info": "Create a black hole on the map that remains there forever. Black holes are limited. A black hole can not be created on top of an hero"
+        },
+        {
+            "name": "Yedi 1",
+            "velocity": 400,
+            "range": "column",
             "damage": 0,
             "active": "once",
-            "health": 3,
-            "info": "Rotate a single enemy"
-        },
-        {
-            "name": "Rotator 3",
-            "velocity": 400,
-            "range": "full",
-            "damage": 0,
-            "active": "always",
             "health": 2,
-            "info": "Rotate every turn an enemy"
+            "info": "Push / Pull hero 1 tile towards or away from you. git status"
         },
         {
-            "name": "Full range Damage 1",
+            "name": "Resurect",
             "velocity": 500,
             "range": "full",
             "damage": 2,

@@ -4,6 +4,7 @@ import darkSide from "../guilds/darkside/darkside.json" with {type: "json"};
 import explorer from "../guilds/explorer/explorer.json" with {type: "json"};
 import warriors from "../guilds/warriors/warriors.json" with {type: "json"};
 import specials from "../guilds/specials/specials.json" with {type: "json"};
+import defenders from "../guilds/defenders/defenders.json" with {type: "json"};
 
 class CardCollection {
     constructor() {
@@ -46,5 +47,6 @@ cardCollection.addGuild(darkSide);
 cardCollection.addGuild(explorer);
 cardCollection.addGuild(warriors);
 cardCollection.addGuild(specials);
+cardCollection.addGuild(defenders);
 
 

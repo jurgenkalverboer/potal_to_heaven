@@ -5,6 +5,14 @@
   },
   "name": "Specials",
   "heroes": [
-
+    {
+      "name": "Area damage",
+      "velocity": 600,
+      "range": "areaMedium",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "All units in the area receive damage"
+    }
   ]
 }

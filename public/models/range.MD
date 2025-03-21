@@ -11,11 +11,22 @@ xxxxx
 -xxx-
 --^--
 
+AreaMedium
+-xxx-
+-xxx-
+--^--
+
 Short
 -xxx-
 --^--
 
 Face
+x
+^
+
+Column
+x
+x
 x
 ^
 
