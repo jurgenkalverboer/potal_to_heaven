@@ -8,6 +8,8 @@
 		{
 			"name": "Healer 1",
 			"velocity": 300,
+			"up" : 1,
+			"lr": 2,
 			"range": "longAround",
 			"damage": 1,
 			"active": "always",
@@ -17,6 +19,8 @@
 		{
 			"name": "Healer 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "longAround",
 			"damage": 1,
 			"active": "once",
@@ -26,6 +30,8 @@
 		{
 			"name": "Healer 3",
 			"velocity": 400,
+			"up" : 1,
+			"lr": 2,
 			"range": "shortAround",
 			"damage": 2,
 			"active": "once",
@@ -35,6 +41,8 @@
 		{
 			"name": "Damage redirector",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "shortAround",
 			"damage": 0,
 			"active": "always",
@@ -44,6 +52,8 @@
 		{
 			"name": "Wall Builder 1",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 0,
 			"active": "direct",
@@ -53,6 +63,8 @@
 		{
 			"name": "Wall Builder 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 0,
 			"active": "direct",
@@ -62,6 +74,8 @@
 		{
 			"name": "Quick tank",
 			"velocity": 10,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 1,
 			"active": "once",
@@ -71,6 +85,8 @@
 		{
 			"name": "Slow tank",
 			"velocity": 900,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 1,
 			"active": "once",
@@ -80,6 +96,8 @@
 		{
 			"name": "Blocker",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 1,
 			"active": "direct",
@@ -89,6 +107,8 @@
 		{
 			"name": "Area blocker",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 1,
 			"active": "shortAround",

@@ -8,6 +8,8 @@
         {
             "name": "Black hole 1",
             "velocity": 300,
+            "up" : 1,
+            "lr": 2,
             "range": "short",
             "damage": 0,
             "active": "direct",
@@ -17,6 +19,8 @@
         {
             "name": "Black hole 2",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "short",
             "damage": 0,
             "active": "direct",
@@ -26,6 +30,8 @@
         {
             "name": "Yedi 1",
             "velocity": 400,
+            "up" : 1,
+            "lr": 2,
             "range": "column",
             "damage": 0,
             "active": "once",
@@ -35,6 +41,8 @@
         {
             "name": "Resurect",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "full",
             "damage": 2,
             "active": "direct",
@@ -44,6 +52,8 @@
         {
             "name": "Full range Damage 2",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "full",
             "damage": 2,
             "active": "once",
@@ -53,6 +63,8 @@
         {
             "name": "Full range Damage 3",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "full",
             "damage": 1,
             "active": "always",
@@ -62,6 +74,8 @@
         {
             "name": "Mediun Range Damage 1",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "medium",
             "damage": 2,
             "active": "once",
@@ -71,11 +85,35 @@
         {
             "name": "Mediun Range Damage 2",
             "velocity": 500,
+            "up" : 1,
+            "lr": 2,
             "range": "medium",
             "damage": 2,
             "active": "direct",
             "health": 3,
             "info": "Hits up to 3 enemies in range"
+        },
+        {
+            "name": "Black hole puller",
+            "velocity": 500,
+            "up" : 1,
+            "lr": 2,
+            "range": "none",
+            "damage": 0,
+            "active": "direct",
+            "health": 2,
+            "info": "Pull all units next to a blackhole into it. Stays active till defeated"
+        },
+        {
+            "name": "Black hole puller 2",
+            "velocity": 500,
+            "up" : 1,
+            "lr": 2,
+            "range": "none",
+            "damage": 0,
+            "active": "direct",
+            "health": 2,
+            "info": "Pull all units next to a blackhole into it. Stays active till defeated"
         }
     ]
 }

@@ -6,6 +6,8 @@ export const heroesSchema = {
         "properties": {
             "name": {"type": "string"},
             "velocity": {"type": "integer", "minimum": 1, "maximum": 1000},
+            "up": {"type": "integer", "minimum": 0, "maximum": 2},
+            "lr": {"type": "integer", "minimum": 0, "maximum": 10},
             "range": {
                 "type": "string",
                 "enum": rangeEnum
@@ -21,6 +23,8 @@ export const heroesSchema = {
         "required": [
             "name",
             "velocity",
+            "up",
+            "lr",
             "range",
             "damage",
             "active",

@@ -1,0 +1,21 @@
+{
+  "backImage": "png",
+  "cards": [
+    {
+      "info" : "game changer token",
+      "quantity": 22
+    },
+    {
+      "info" : "guild ban",
+      "quantity": 8
+    },
+    {
+      "info" : "substitute",
+      "quantity": 5
+    },
+    {
+      "info" : "Individual booster",
+      "quantity": 15
+    }
+  ]
+}

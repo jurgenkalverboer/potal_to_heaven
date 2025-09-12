@@ -1,0 +1,64 @@
+{
+  "info": {
+    "image" : "henk.png",
+    "color" : "aa"
+  },
+  "name": "Virus",
+  "heroes": [
+    {
+      "name": "Hit all infected",
+      "velocity": 600,
+      "range": "full",
+      "damage": 1,
+      "active": "once",
+      "health": 3,
+      "info": "All infected units receive damage"
+    },
+    {
+      "name": "Spread master 1",
+      "velocity": 200,
+      "range": "full",
+      "damage": 0,
+      "active": "always",
+      "health": 1,
+      "info": "Infects 3 units every turn"
+    },
+    {
+      "name": "Spread master 2",
+      "velocity": 12,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "Infects 10 units at once"
+    },
+    {
+      "name": "Curer",
+      "velocity": 12,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "Cures 3 units"
+    },
+    {
+      "name": "Deactivator",
+      "velocity": 12,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "Deactivates all infected units"
+    },
+    {
+      "name": "Immune",
+      "velocity": 12,
+      "range": "full",
+      "damage": 0,
+      "active": "always",
+      "health": 4,
+      "info": "As long as active your team is immune to the virus"
+    }
+
+  ]
+}

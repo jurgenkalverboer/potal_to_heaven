@@ -8,28 +8,30 @@
         {
             "name": "Base camp ",
             "velocity": 300,
+            "up": 1,
+            "lr": 6,
             "range": "face",
             "damage": 0,
             "active": "direct",
             "health": 3,
-            "up": 1,
-            "lr": 6,
             "info": "Build a base camp. New units can spawn from this camp. Enemies can not visit base camps. Base camps can only be destroyed by black holes"
         },
         {
             "name": "Base camp 2",
             "velocity": 300,
+            "up": 1,
+            "lr": 6,
             "range": "face",
             "damage": 0,
             "active": "direct",
             "health": 3,
-            "up": 1,
-            "lr": 6,
             "info": "Build a base camp. New units can spawn from this camp. Enemies can not visit base camps. Base camps can only be destroyed by black holes"
         },
         {
             "name": "Area Stun",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "shortAround",
             "damage": 0,
             "active": "once",
@@ -39,6 +41,8 @@
         {
             "name": "Rotator 3",
             "velocity": 400,
+            "up": 1,
+            "lr": 2,
             "range": "full",
             "damage": 0,
             "active": "always",
@@ -48,6 +52,8 @@
         {
             "name": "Full range Damage 1",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "full",
             "damage": 2,
             "active": "direct",
@@ -57,6 +63,8 @@
         {
             "name": "Full range Damage 2",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "full",
             "damage": 2,
             "active": "once",
@@ -66,6 +74,8 @@
         {
             "name": "Full range Damage 3",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "full",
             "damage": 1,
             "active": "always",
@@ -75,6 +85,8 @@
         {
             "name": "Mediun Range Damage 1",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "medium",
             "damage": 2,
             "active": "once",
@@ -84,6 +96,8 @@
         {
             "name": "Mediun Range Damage 2",
             "velocity": 500,
+            "up": 1,
+            "lr": 2,
             "range": "medium",
             "damage": 2,
             "active": "direct",

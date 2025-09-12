@@ -13,6 +13,24 @@
       "active": "once",
       "health": 3,
       "info": "All units in the area receive damage"
+    },
+    {
+      "name": "Mr Bomb",
+      "velocity": 600,
+      "range": "shortAround",
+      "damage": 5,
+      "active": "once",
+      "health": 1,
+      "info": "Explodes hurting everyone around him including himself"
+    },
+    {
+      "name": "Deactivate all",
+      "velocity": 12,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "Deactivates all units. Can not activate in the turn it is played"
     }
   ]
 }

@@ -8,6 +8,8 @@
 		{
 			"name": "Rotator 1",
 			"velocity": 300,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 0,
 			"active": "direct",
@@ -17,6 +19,8 @@
 		{
 			"name": "Rotator 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 0,
 			"active": "once",
@@ -26,6 +30,8 @@
 		{
 			"name": "Rotator 3",
 			"velocity": 400,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 0,
 			"active": "always",
@@ -35,6 +41,8 @@
 		{
 			"name": "Full range Damage 1",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 2,
 			"active": "direct",
@@ -44,6 +52,8 @@
 		{
 			"name": "Full range Damage 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 2,
 			"active": "once",
@@ -53,6 +63,8 @@
 		{
 			"name": "Full range Damage 3",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 1,
 			"active": "always",
@@ -62,6 +74,8 @@
 		{
 			"name": "Mediun Range Damage 1",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "medium",
 			"damage": 2,
 			"active": "once",
@@ -71,6 +85,8 @@
 		{
 			"name": "Mediun Range Damage 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "medium",
 			"damage": 2,
 			"active": "direct",

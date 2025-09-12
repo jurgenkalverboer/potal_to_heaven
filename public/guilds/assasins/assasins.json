@@ -1,0 +1,53 @@
+{
+  "info": {
+    "image" : "henk.png",
+    "color" : "aa"
+  },
+  "name": "Assasins",
+  "heroes": [
+    {
+      "name": "Sleeping Dog",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 2,
+      "range": "column",
+      "damage": 100,
+      "active": "once",
+      "health": 3,
+      "info": "As soon as an enemy appears in range this unit will jump on it and destroy it"
+    },
+    {
+      "name": "Assassin",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 4,
+      "range": "under",
+      "damage": 4,
+      "active": "direct",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it"
+    },
+    {
+      "name": "Eliminator",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 4,
+      "range": "under",
+      "damage": 4,
+      "active": "direct",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it. Enemy is not injured but placed on discard pile"
+    },
+    {
+      "name": "Sleeping beauty",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 2,
+      "range": "around",
+      "damage": 2,
+      "active": "always",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it."
+    }
+  ]
+}
