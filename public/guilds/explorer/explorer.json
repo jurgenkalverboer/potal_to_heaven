@@ -28,6 +28,17 @@
             "info": "Build a base camp. New units can spawn from this camp. Enemies can not visit base camps. Base camps can only be destroyed by black holes"
         },
         {
+            "name": "Base camp 3",
+            "velocity": 300,
+            "up": 1,
+            "lr": 6,
+            "range": "face",
+            "damage": 0,
+            "active": "direct",
+            "health": 3,
+            "info": "Build a base camp. New units can spawn from this camp. Enemies can not visit base camps. Base camps can only be destroyed by black holes"
+        },
+        {
             "name": "Area Stun",
             "velocity": 500,
             "up": 1,

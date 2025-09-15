@@ -17,7 +17,51 @@
       "info": "As soon as an enemy appears in range this unit will jump on it and destroy it"
     },
     {
+      "name": "Sleeping Dog 2",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 2,
+      "range": "column",
+      "damage": 100,
+      "active": "once",
+      "health": 3,
+      "info": "As soon as an enemy appears in range this unit will jump on it and destroy it"
+    },
+    {
+      "name": "Unleashed beauty",
+      "velocity": 300,
+      "up" : 1,
+      "lr": 2,
+      "range": "column",
+      "damage": 2,
+      "active": "always",
+      "health": 3,
+      "info": "As soon as an enemy appears in range this unit will jump on it and destroy it if she can. Can trigger multiple times in a turn"
+    },
+    {
+      "name": "Unleashed beauty 2",
+      "velocity": 300,
+      "up" : 1,
+      "lr": 2,
+      "range": "column",
+      "damage": 2,
+      "active": "always",
+      "health": 3,
+      "info": "As soon as an enemy appears in range this unit will jump on it and destroy it if she can. Can trigger multiple times in a turn"
+    },
+    {
       "name": "Assassin",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 4,
+      "range": "under",
+      "damage": 4,
+      "active": "direct",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it"
+    },
+    {
+      "name": "Assassin 2",
       "velocity": 600,
       "up" : 1,
       "lr": 4,
@@ -39,15 +83,37 @@
       "info": "Can only jump on unit if it can kill it. Enemy is not injured but placed on discard pile"
     },
     {
-      "name": "Sleeping beauty",
+      "name": "Eliminator 2",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 4,
+      "range": "under",
+      "damage": 4,
+      "active": "direct",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it. Enemy is not injured but placed on discard pile"
+    },
+    {
+      "name": "Ninja warrior",
       "velocity": 600,
       "up" : 1,
       "lr": 2,
-      "range": "around",
-      "damage": 2,
+      "range": "medium",
+      "damage": 3,
       "active": "always",
       "health": 3,
-      "info": "Can only jump on unit if it can kill it."
+      "info": "Can only jump on unit if it can kill it. After a kill reallocate it on the map, just as you would do when adding a new hero"
+    },
+    {
+      "name": "Ninja warrior 2",
+      "velocity": 600,
+      "up" : 1,
+      "lr": 2,
+      "range": "medium",
+      "damage": 3,
+      "active": "always",
+      "health": 3,
+      "info": "Can only jump on unit if it can kill it. After a kill reallocate it on the map, just as you would do when adding a new hero"
     }
   ]
 }

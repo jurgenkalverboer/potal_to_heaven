@@ -109,9 +109,9 @@
 			"velocity": 500,
 			"up" : 1,
 			"lr": 2,
-			"range": "face",
+			"range": "shortAround",
 			"damage": 1,
-			"active": "shortAround",
+			"active": "always",
 			"health": 4,
 			"info": "If hit, then it is the only hero who is receiving damage"
 		}

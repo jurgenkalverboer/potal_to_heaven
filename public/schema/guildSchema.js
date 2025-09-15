@@ -12,7 +12,7 @@ export const heroesSchema = {
                 "type": "string",
                 "enum": rangeEnum
             },
-            "damage": {"type": "integer", "minimum": 0, "maximum": 5},
+            "damage": {"type": "integer", "minimum": 0, "maximum": 100},
             "active": {
                 "type": "string",
                 "enum": activeEnum

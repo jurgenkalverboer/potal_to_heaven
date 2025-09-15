@@ -6,8 +6,21 @@
   "name": "Virus",
   "heroes": [
     {
-      "name": "Hit all infected",
+      "name": "Extra Hit",
       "velocity": 600,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 1,
+      "active": "once",
+      "health": 3,
+      "info": "All infected units receive damage"
+    },
+    {
+      "name": "Extra Hit 2",
+      "velocity": 600,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 1,
       "active": "once",
@@ -17,6 +30,8 @@
     {
       "name": "Spread master 1",
       "velocity": 200,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "always",
@@ -26,6 +41,19 @@
     {
       "name": "Spread master 2",
       "velocity": 12,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "Infects 10 units at once"
+    },
+    {
+      "name": "Spread master 3",
+      "velocity": 12,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "once",
@@ -35,6 +63,8 @@
     {
       "name": "Curer",
       "velocity": 12,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "once",
@@ -44,6 +74,8 @@
     {
       "name": "Deactivator",
       "velocity": 12,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "once",
@@ -53,12 +85,35 @@
     {
       "name": "Immune",
       "velocity": 12,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "always",
       "health": 4,
       "info": "As long as active your team is immune to the virus"
+    },
+    {
+      "name": "Forward",
+      "velocity": 12,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 0,
+      "active": "once",
+      "health": 4,
+      "info": "You may pass the virus of two units to neighbouring units, curing the original units from the virus "
+    },
+    {
+      "name": "Spread master 4",
+      "velocity": 600,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 1,
+      "active": "always",
+      "health": 3,
+      "info": "If you interact with an infected unit you also receive the virus."
     }
-
   ]
 }

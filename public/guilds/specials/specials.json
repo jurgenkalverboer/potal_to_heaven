@@ -6,8 +6,21 @@
   "name": "Specials",
   "heroes": [
     {
-      "name": "Area damage",
+      "name": "Mage Area damage",
       "velocity": 600,
+      "up": 1,
+      "lr": 1,
+      "range": "areaMedium",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "All units in the area receive damage"
+    },
+    {
+      "name": "Mage Area damage 2",
+      "velocity": 600,
+      "up": 1,
+      "lr": 1,
       "range": "areaMedium",
       "damage": 3,
       "active": "once",
@@ -17,6 +30,8 @@
     {
       "name": "Mr Bomb",
       "velocity": 600,
+      "up": 1,
+      "lr": 1,
       "range": "shortAround",
       "damage": 5,
       "active": "once",
@@ -26,11 +41,79 @@
     {
       "name": "Deactivate all",
       "velocity": 12,
+      "up": 1,
+      "lr": 1,
       "range": "full",
       "damage": 0,
       "active": "once",
       "health": 4,
       "info": "Deactivates all units. Can not activate in the turn it is played"
+    },
+    {
+      "name": "Raging Bull",
+      "velocity": 600,
+      "up": 1,
+      "lr": 1,
+      "range": "under",
+      "damage": 100,
+      "active": "always",
+      "health": 3,
+      "info": "Moves each turn destroying all in its path"
+    },
+    {
+      "name": "Hail storm",
+      "velocity": 600,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 2,
+      "active": "once",
+      "health": 3,
+      "info": "Hit everyone on the map including own heroes. Does not hit its self"
+    },
+    {
+      "name": "Burning man",
+      "velocity": 900,
+      "up": 1,
+      "lr": 1,
+      "range": "medium",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "Start a fire on 3 squares. Damage is received at the end of the turn"
+    },
+    {
+      "name": "Burning man 2",
+      "velocity": 900,
+      "up": 1,
+      "lr": 1,
+      "range": "medium",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "Start a fire on 3 squares. Damage is received at the end of the turn"
+    },
+    {
+      "name": "Truce",
+      "velocity": 300,
+      "up": 1,
+      "lr": 1,
+      "range": "full",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "Opponent is not allowed to attack you this turn. Truce is broken when you attack. You can still be pushed and rotated"
+    },
+    {
+      "name": "Mind Control",
+      "velocity": 300,
+      "up": 1,
+      "lr": 1,
+      "range": "medium",
+      "damage": 3,
+      "active": "once",
+      "health": 3,
+      "info": "Take over any unit in game and perform its action. After the action is performed the original owner takes control again. It does not affect the active state of the controlled unit"
     }
   ]
 }

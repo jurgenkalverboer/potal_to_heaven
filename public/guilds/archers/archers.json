@@ -92,6 +92,28 @@
 			"active": "direct",
 			"health": 3,
 			"info": "Hits up to 3 enemies in range"
+		},
+		{
+			"name": "Rotator 4",
+			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
+			"range": "medium",
+			"damage": 2,
+			"active": "direct",
+			"health": 3,
+			"info": "Hits up to 3 enemies in range"
+		},
+		{
+			"name": "Hit all",
+			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
+			"range": "full",
+			"damage": 1,
+			"active": "direct",
+			"health": 3,
+			"info": "Hits all units of a single opponent"
 		}
 	]
 }

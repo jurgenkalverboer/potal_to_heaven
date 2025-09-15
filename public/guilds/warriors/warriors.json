@@ -8,6 +8,19 @@
 		{
 			"name": "Mr knock back",
 			"velocity": 300,
+			"up" : 1,
+			"lr": 2,
+			"range": "face",
+			"damage": 0,
+			"active": "direct",
+			"health": 3,
+			"info": "Deactivate enemy, enemy is pushed 1 tile backwards"
+		},
+		{
+			"name": "Mr knock back 2",
+			"velocity": 300,
+			"up" : 1,
+			"lr": 2,
 			"range": "face",
 			"damage": 0,
 			"active": "direct",
@@ -17,6 +30,19 @@
 		{
 			"name": "Area Stun",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
+			"range": "shortAround",
+			"damage": 0,
+			"active": "once",
+			"health": 3,
+			"info": "All enemies around are deactivated"
+		},
+		{
+			"name": "Area Stun 2",
+			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "shortAround",
 			"damage": 0,
 			"active": "once",
@@ -26,6 +52,8 @@
 		{
 			"name": "Rotator 3",
 			"velocity": 400,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 0,
 			"active": "always",
@@ -35,6 +63,8 @@
 		{
 			"name": "Full range Damage 1",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 2,
 			"active": "direct",
@@ -44,6 +74,8 @@
 		{
 			"name": "Full range Damage 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 2,
 			"active": "once",
@@ -53,6 +85,8 @@
 		{
 			"name": "Full range Damage 3",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "full",
 			"damage": 1,
 			"active": "always",
@@ -62,6 +96,8 @@
 		{
 			"name": "Mediun Range Damage 1",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "medium",
 			"damage": 2,
 			"active": "once",
@@ -71,6 +107,8 @@
 		{
 			"name": "Mediun Range Damage 2",
 			"velocity": 500,
+			"up" : 1,
+			"lr": 2,
 			"range": "medium",
 			"damage": 2,
 			"active": "direct",
