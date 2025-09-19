@@ -1,12 +1,12 @@
 
-import archers from "../guilds/archers/archers.json" with {type: "json"};
-import darkSide from "../guilds/darkside/darkside.json" with {type: "json"};
-import explorer from "../guilds/explorer/explorer.json" with {type: "json"};
-import warriors from "../guilds/warriors/warriors.json" with {type: "json"};
-import specials from "../guilds/specials/specials.json" with {type: "json"};
-import defenders from "../guilds/defenders/defenders.json" with {type: "json"};
-import virus from "../guilds/virus/virus.json" with {type: "json"};
-import assasins from "../guilds/assasins/assasins.json" with {type: "json"};
+import archers from "../../public/guilds/archers/archers.json" with {type: "json"};
+import darkSide from "../../public/guilds/darkside/darkside.json" with {type: "json"};
+import explorer from "../../public/guilds/explorer/explorer.json" with {type: "json"};
+import warriors from "../../public/guilds/warriors/warriors.json" with {type: "json"};
+import specials from "../../public/guilds/specials/specials.json" with {type: "json"};
+import defenders from "../../public/guilds/defenders/defenders.json" with {type: "json"};
+import virus from "../../public/guilds/virus/virus.json" with {type: "json"};
+import assasins from "../../public/guilds/assasins/assasins.json" with {type: "json"};
 
 class CardCollection {
     constructor() {

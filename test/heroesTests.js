@@ -1,8 +1,8 @@
 // check if all guilds are complete
 import * as  assert from 'assert';
-import {cardCollection} from "../public/models/cardCollection.js";
+import {cardCollection} from "../src/models/cardCollection.js";
 import {validate} from 'jsonschema';
-import {heroesSchema} from "../public/schema/guildSchema.js";
+import {heroesSchema} from "../src/schema/guildSchema.js";
 
 describe('Heroes', function () {
     // loop over all guilds

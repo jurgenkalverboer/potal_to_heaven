@@ -100,7 +100,7 @@
 			"lr": 2,
 			"range": "medium",
 			"damage": 2,
-			"active": "direct",
+			"active": "direct",5
 			"health": 3,
 			"info": "Hits up to 3 enemies in range"
 		},

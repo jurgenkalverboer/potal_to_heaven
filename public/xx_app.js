@@ -1,4 +1,4 @@
-import {cardCollection} from "./models/cardCollection.js"
+import {cardCollection} from "../src/models/cardCollection.js"
 
 const guild_names = document.getElementById("guild_names");
 

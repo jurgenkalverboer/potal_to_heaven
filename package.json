@@ -2,11 +2,18 @@
   "name": "portal_to_heaven",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "http-server": "^14.1.1",
+    "jsonschema": "^1.5.0"
+  },
   "scripts": {
     "test": "mocha",
-    "start": "http-server ./public -c-1 -o"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +21,16 @@
   "devDependencies": {
     "mocha": "^11.1.0"
   },
-  "dependencies": {
-    "http-server": "^14.1.1",
-    "jsonschema": "^1.5.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
